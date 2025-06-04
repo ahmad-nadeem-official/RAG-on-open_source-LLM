@@ -5,9 +5,17 @@ Welcome to **RAG on Open-Source LLMs**, a cutting-edge project that brings Retri
 
 🔗 **Repository Name**: RAG on Open-Source LLMs  
 📅 **Last Updated**: June 2025  
-👨‍💻 **Author**: \[Your Name\]
+👨‍💻 **Author**: Muhammad Ahmad Nadeem
 
 * * *
+
+⚠️ **Warning!** ⚠️
+
+Please note that for the best performance, you should run this code on your system only if you have a GPU available on your machine other wise your system can be crash. If you don’t have a GPU, no worries! 🌐 I recommend running this code on **Google Colab**, where you can access free GPU resources effortlessly. Check out the Colab notebook below to get started:
+
+🛡️ **[Google Colab](https://colab.research.google.com/drive/117VgcNYwceZWqy-SD7AalsnAkLLJAPhG#scrollTo=getMm5qOtO-q)**
+
+![Generated Image](https://img.shields.io/badge/Google%20Colab-Run%20with%20GPU-blue?logo=googlecolab)
 
 🌟 What is This Project About?
 ------------------------------
