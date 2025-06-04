@@ -108,7 +108,7 @@ Follow these steps to set up and run the project on your machine! 🚀
 
 ### Step 1: Clone the Repository
 
-git clone [https://github.com/\[your-username\]/RAG-on-open-source-LLMs.git](https://github.com/%5Byour-username%5D/RAG-on-open-source-LLMs.git)  
+git clone [GITHUB-REPO](https://github.com/ahmad-nadeem-official/RAG-on-open_source-LLM.git)  
 cd RAG-on-open-source-LLMs
 
 ### Step 2: Install Dependencies
@@ -117,11 +117,11 @@ pip install -r requirements.txt
 
 ### Step 3: Prepare Your Document
 
-Place your document (e.g., a PDF or text file) in the **RAW/** directory. By default, the pipeline uses **bio.txt** as a sample file.
+Place your document (e.g., a PDF or text file) in the **SRC/** directory. By default, the pipeline uses **bio.txt** as a sample file.
 
 ### Step 4: Run the Pipeline
 
-python rag/main.py
+python rag/clean/main.py
 
 This will:
 
@@ -146,7 +146,7 @@ Here’s a high-level overview of the RAG pipeline in this project:
 2.  **Split into Chunks** ✂️: The document is split into smaller chunks (500 characters each) with a slight overlap to retain context.
 3.  **Create Embeddings** 🔢: Chunks are converted into vectors using **sentence-transformers/all-MiniLM-L6-v2**.
 4.  **Build Vector DB** 🗄️: FAISS creates a searchable vector database from the embeddings.
-5.  **Load LLM** 🤖: TinyLlama (1.1B) is loaded via HuggingFace Transformers for text generation.
+5.  **Load LLM** 🤖: TinyLlama (1.1B) is loaded via HuggingFace Transformers for text generation 🤫(you can change model, if you want another LLM to train you can change varible name(`LLM_MODEL_NAME = "choose your desire LLM"`) in main.py).
 6.  **Set Up RAG Chain** ⚙️: LangChain’s RetrievalQA combines the vector retriever and LLM with a custom prompt.
 7.  **Query and Answer** 💬: Ask a question, and the pipeline retrieves relevant chunks and generates an answer!
 
@@ -191,13 +191,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 *   **LangChain** for simplifying the RAG pipeline creation.
 *   **FAISS** for efficient vector search.
 *   **Sentence-Transformers** for high-quality embeddings.
-
-* * *
-
-📧 Contact
-----------
-
-Have questions or want to collaborate? Reach out to me at \[[your-email@example.com](mailto:your-email@example.com)\] or connect with me on \[LinkedIn/Twitter\]! Let’s build something amazing together. 🚀
 
 * * *
 
