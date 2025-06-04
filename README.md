@@ -109,11 +109,11 @@ Follow these steps to set up and run the project on your machine! 🚀
 ### Step 1: Clone the Repository
 
 git clone [GITHUB-REPO](https://github.com/ahmad-nadeem-official/RAG-on-open_source-LLM.git)  
-cd RAG-on-open-source-LLMs
+cd `rag`
 
 ### Step 2: Install Dependencies
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Step 3: Prepare Your Document
 
@@ -121,7 +121,7 @@ Place your document (e.g., a PDF or text file) in the **SRC/** directory. By def
 
 ### Step 4: Run the Pipeline
 
-python rag/clean/main.py
+`python rag/clean/main.py`
 
 This will:
 
