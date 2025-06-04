@@ -81,12 +81,11 @@ Here’s the powerhouse of tools and libraries that make this project tick!
 Here’s a quick look at how the repository is organized:
 
 *   **rag/**: Core directory for RAG pipeline scripts.
-    *   **main.py**: Main script to run the entire RAG pipeline.
-    *   **Rag.ipynb**: Jupyter notebook for interactive experimentation and step-by-step walkthrough.
-    *   **rag.py**: Modular functions for the RAG pipeline (loading, chunking, embedding, etc.).
-*   **RAW/**: Directory for raw data (e.g., bio.txt).
-*   **SRC/**: Source directory for additional scripts or utilities.
-*   **bio.txt**: Sample text file used for testing the RAG pipeline.
+    *   **clean**: Folder where I saved main file.
+          *  **main.py**: main file of code
+    *   **RAW**: **Jupyter notebook** and **rag.py** for interactive experimentation and step-by-step walkthrough.
+    *   **SRC/**: Source directory for additional scripts or utilities.
+      *   **bio.txt**: Sample text file used for testing the RAG pipeline.
 *   **.gitignore**: Gitignore file to keep the repo clean.
 *   **README.md**: You’re reading it! 😄
 *   **requirements.txt**: List of dependencies to set up the project.
