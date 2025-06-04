@@ -85,7 +85,7 @@ Here’s a quick look at how the repository is organized:
           *  **main.py**: main file of code
     *   **RAW**: **Jupyter notebook** and **rag.py** for interactive experimentation and step-by-step walkthrough.
     *   **SRC/**: Source directory for additional scripts or utilities.
-      *   **bio.txt**: Sample text file used for testing the RAG pipeline.
+         *   **bio.txt**: Sample text file used for testing the RAG pipeline.
 *   **.gitignore**: Gitignore file to keep the repo clean.
 *   **README.md**: You’re reading it! 😄
 *   **requirements.txt**: List of dependencies to set up the project.
